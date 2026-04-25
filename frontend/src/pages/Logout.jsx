@@ -1,5 +1,5 @@
 function Logout() {
-    return <div>Logout</div>
+    localStorage.clear();
 
 }
 

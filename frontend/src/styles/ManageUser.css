@@ -1,0 +1,24 @@
+.manage-container { padding: 40px; font-family: 'Poppins', sans-serif; }
+
+.dashboard-menu { display: flex; gap: 15px; margin-bottom: 30px; }
+
+.user-grid {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.user-grid th {
+    background-color: #2563eb;
+    color: white;
+    padding: 12px;
+    cursor: pointer;
+    text-align: left;
+}
+
+.user-grid td { padding: 12px; border-bottom: 1px solid #eee; }
+
+.edit-btn { background: #f59e0b; color: white; border: none; padding: 5px 10px; border-radius: 4px; cursor: pointer; }
+.delete-btn { background: #ef4444; color: white; border: none; padding: 5px 10px; border-radius: 4px; cursor: pointer; }
+.word-btn { background: #2b579a; color: white; border: none; padding: 10px 20px; border-radius: 6px; cursor: pointer; margin-left: auto; }

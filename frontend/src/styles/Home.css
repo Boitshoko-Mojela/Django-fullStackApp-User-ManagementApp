@@ -1,0 +1,92 @@
+/* src/styles/Home.css */
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: var(--bg-gradient);
+    padding: 20px;
+}
+
+.home-card {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px); /* Modern frosted glass effect */
+    padding: 3rem;
+    border-radius: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.home-card:hover {
+    transform: translateY(-5px); /* Gentle lift on hover */
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #1e293b;
+    letter-spacing: -0.025em;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    color: var(--secondary);
+    font-size: 0.95rem;
+    margin-bottom: 2rem;
+}
+
+.menu-options {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.nav-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 12px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Primary Action: Add User */
+.btn-primary {
+    background-color: var(--primary);
+    color: white;
+}
+.btn-primary:hover {
+    background-color: #1d4ed8;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+}
+
+/* Secondary Action: Manage */
+.btn-secondary {
+    background-color: white;
+    color: #1e293b;
+    border: 1px solid #e2e8f0;
+}
+.btn-secondary:hover {
+    background-color: #f1f5f9;
+    border-color: #cbd5e1;
+}
+
+/* Danger Action: Logout */
+.btn-outline-danger {
+    background-color: transparent;
+    color: var(--danger);
+    border: 1px solid #fee2e2;
+    margin-top: 20px;
+}
+.btn-outline-danger:hover {
+    background-color: #fef2f2;
+    border-color: var(--danger);
+}

@@ -34,6 +34,7 @@ function Form({route, method}){
 
     return <form onSubmit={handleSubmit} className="form-container">
         <h1> {nameOfForm} </h1>
+        <h3>Use your surname as your UserName when registering</h3>
         <input
             className='form-input'
             type="text"
